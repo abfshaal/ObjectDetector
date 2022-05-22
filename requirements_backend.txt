@@ -1,0 +1,9 @@
+torch==1.11.0
+torchvision==0.12.0
+tornado==6.1
+opencv-python==4.5.5.64
+pandas==1.2.4
+pyyaml
+matplotlib
+seaborn
+tqdm

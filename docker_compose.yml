@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  front_end:
+    image: objectdetectorfe
+    ports:
+      - "80:80"
+    networks:
+      - localhost
+  back_end:
+    image: objectdetectorbe
+    ports:
+    - "5000:5000"
+    networks:
+      - localhost
+
+networks:
+  localhost:
+    driver: bridge
+
